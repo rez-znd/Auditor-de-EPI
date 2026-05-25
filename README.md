@@ -22,6 +22,6 @@ Para que o código funcione corretamente, a estrutura do seu diretório deve est
 ```text
 📁 seu_projeto/
 │
-├── 📄 inspecao_epi.py       # Código principal do script
+├── 📄 main.py       # Código principal do script
 ├── 📄 modelo_epi.pt         # Arquivo de pesos do modelo YOLO treinado para EPIs
 └── 📄 README.md             # Este arquivo
