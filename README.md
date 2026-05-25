@@ -11,7 +11,8 @@ Este projeto utiliza **Visão Computacional** e **Inteligência Artificial** (vi
 * **Detecção Dinâmica:** Identifica a pessoa com maior área de foco na tela.
 * **Associação Inteligente:** Verifica se os EPIs detectados (capacete e colete) pertencem especificamente à pessoa principal, utilizando o cálculo do centro geométrico para evitar falsos positivos.
 * **Interface Minimalista:** Painel lateral limpo (fundo cinza com bordas) que exibe o status dos equipamentos sem poluir a imagem da câmera.
-* **Alertas Visuais:** * 🟢 **Verde:** EPI totalmente regular (capacete + colete).
+* **Alertas Visuais:**
+  * 🟢 **Verde:** EPI totalmente regular (capacete + colete).
   * 🟠 **Laranja:** EPI parcial (apenas um dos itens detectado).
   * 🔴 **Vermelho:** Totalmente sem EPI.
 
