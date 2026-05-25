@@ -5,7 +5,6 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 
-# --- Configurações de Caminho e Modelo ---
 pasta_do_projeto = os.path.dirname(os.path.abspath(__file__))
 caminho_modelo = os.path.join(pasta_do_projeto, "modelo_epi.pt")
 model = YOLO(caminho_modelo)
@@ -34,7 +33,6 @@ class AplicativoEPI:
                               bg="#262626")
         lbl_titulo.pack(pady=20)
 
-        # Status Geral
         self.lbl_status_geral = tk.Label(self.painel_lateral, text="Aguardando inspeção...", font=("Arial", 12, "bold"),
                                          fg="#ffffff", bg="#333333", width=25, height=2)
         self.lbl_status_geral.pack(pady=15)
